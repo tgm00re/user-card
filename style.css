@@ -1,0 +1,53 @@
+
+* {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+}
+
+.container{
+    margin: 5% 5% 0 5%;
+    background-color: white;
+    border: 1vh grey solid;
+    font-size: 5vh;
+    width: auto;
+}
+
+.top-bar{
+    background-color: teal;
+    height: 15vh;
+}
+
+.content{
+    margin-left: 10%;
+}
+
+.user-circle{
+    border: .25rem white solid;
+    border-radius: 100%;
+    width: 20vh;
+    height: auto;
+    margin-top: -6%;
+    z-index: 10;
+}
+
+
+h2{
+    font-size: 6vh;
+    margin-bottom: 2%;
+}
+
+.map-marker, .gear{
+    height: 8vh;
+}
+
+.bio{
+    margin-bottom: 2%;
+}
+
